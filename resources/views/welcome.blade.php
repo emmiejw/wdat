@@ -42,7 +42,12 @@
       background-position: center;
       min-height: 300px;
   }
+  .parallax-container {
+      height: 300px;
+    }
+        
 }
+
     </style>
 </head>
 <body>
@@ -62,7 +67,7 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="images/blue.jpeg" alt="" class="responsive-img">
+        <img src="images/blue.jpeg" >
     </div>
 </div>
             
@@ -71,9 +76,10 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="images/wine.jpg" alt="" class="responsive-img">
+        <img src="images/wine.jpg" >
     </div>
 </div>
+
             
 @include('content.contact')    
 
@@ -90,6 +96,7 @@
       $('.tooltipped').tooltip();
       $('.scrollspy').scrollSpy();
     });
+    <!--   script(src='//cdn.transifex.com/live.js')-->
   </script>
 </body>
 </html>
