@@ -35,6 +35,14 @@
         background-image: url('images/wine.jpg');
         background-size: cover;
     }
+    @media only screen and (max-width: 600px) {
+  header {
+      background: url(images/nav.png); 
+      background-size: cover;
+      background-position: center;
+      min-height: 300px;
+  }
+}
     </style>
 </head>
 <body>
@@ -45,7 +53,7 @@
 <br>
 <section class="container section scrollspy" id="about">
     <div class="row center-align">
-        <blockquote><h4><em>"Working together for a safer, healthier future for you employees and company"</em></h4></blockquote><br>
+        <blockquote><h4><em>"Working together for a safer, healthier future for your employees and company"</em></h4></blockquote><br>
         <p>- Mrs Ketley, Managing Director</p>
     </div>
     <hr>
