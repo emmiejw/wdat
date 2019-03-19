@@ -1,6 +1,6 @@
 <div class="row">
         <div class="col s12 l4">
-            <img src="images/IMG_3985.JPG" alt="" class="responsive-img materialboxed">
+            <img src="images/IMG_3985.png" alt="" class="responsive-img materialboxed">
         </div>
         <div class="col s12 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Enquire</h2>
@@ -10,7 +10,7 @@
     </div>
 <div class="row">
     <div class="col s12 l4 offset-l1 push-l7">
-        <img src="images/4.jpg" alt="" class="responsive-img materialboxed">
+        <img src="images/bevshots.png" alt="" class="responsive-img materialboxed">
     </div>
     <div class="col s12 l6 offset-l1 pull-l5 right-align">
         <h2 class="indigo-text text-darken-4">Assess</h2>
@@ -19,7 +19,7 @@
 </div>
 <div class="row">
     <div class="col s12 l4">
-        <img src="images/IMG_3982.PNG" alt="" class="responsive-img materialboxed">
+        <img src="images/21.png" alt="" class="responsive-img materialboxed">
     </div>
     <div class="col s12 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Test</h2>
@@ -28,7 +28,7 @@
 </div>
 <div class="row">
     <div class="col s12 l4 offset-l1 push-l7">
-        <img src="images/IMG_3986.JPG" alt="" class="responsive-img materialboxed">
+        <img src="images/key.png" alt="" class="responsive-img materialboxed">
     </div>
     <div class="col s12 l6 offset-l1 pull-l5 right-align">
         <h2 class="indigo-text text-darken-4">Results</h2>

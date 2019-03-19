@@ -62,7 +62,7 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="images/wine.jpg" alt="" class="responsive-img">
+        <img src="images/blue.jpeg" alt="" class="responsive-img">
     </div>
 </div>
             
@@ -71,7 +71,7 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="images/IMG_3983.PNG" alt="" class="responsive-img">
+        <img src="images/wine.jpg" alt="" class="responsive-img">
     </div>
 </div>
             
