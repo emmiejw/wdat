@@ -7,10 +7,10 @@
             <div class="col s12 l5 offset-l2">
                 <br>
                 <br>
-                    <i class="material-icons">phone</i>  <br>
+                    <i class="material-icons">phone</i>  
                           <a href="tel:02380 897025"> 07743 487072</a>  
                      <br><br>
-                     <i class="material-icons">email</i> <br>
+                     <i class="material-icons">email</i> 
                     <a href="mailto:workplacedat@gmail.com">workplacedat@gmail.com</a>  <br>
                      <br>
             </div>
