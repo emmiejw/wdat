@@ -11,12 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <title>WDAT</title>
     <style>
-        header{
-      background: url(images/nav.png); 
-      background-size: cover;
-      background-position: center;
-      min-height: 500px;
-    }
+       .navlogo {
+        max-width: 100%;
+        max-height:400px;
+  }
     }
     .section{
       padding-top: 4vw;
@@ -36,11 +34,9 @@
         background-size: cover;
     }
     @media only screen and (max-width: 600px) {
-  header {
-      background: url(images/nav.png); 
-      background-size: cover;
-      background-position: center;
-      min-height: 300px;
+      .navlogo {
+        max-width: 100%;
+        height:auto;
   }
   .parallax-container {
       height: 300px;
@@ -55,6 +51,20 @@
 @include('content.nav')
 </header>
 <main>
+  
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+          <div class="container">
+            <br><br>
+            <div class="row center">
+              <img class="navlogo"src="images/logofinal3.png" alt="">
+            </div>
+            <br><br>
+    
+          </div>
+        </div>
+        <div class="parallax"><img src="images/urinetest.jpg"></div>
+      </div>
 <br>
 <section class="container section scrollspy" id="about">
     <div class="row center-align">

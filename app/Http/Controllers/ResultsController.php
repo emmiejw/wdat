@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contacts;
+use App\Results;
+use Session;
 
 class ResultsController extends Controller
 {
@@ -13,7 +16,8 @@ class ResultsController extends Controller
      */
     public function index()
     {
-        //
+        $results = Results::get();
+        return view('results.index', compact($results, 'results'));
     }
 
     /**
@@ -23,7 +27,7 @@ class ResultsController extends Controller
      */
     public function create()
     {
-        //
+        return  view('results.create');
     }
 
     /**
@@ -34,7 +38,43 @@ class ResultsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'date' => 'required',
+            'time' => 'required',
+            'name' => 'required',
+            'employer' => 'required',
+            'dob' => 'required',
+            'job' => 'required',
+            'urineResult' => 'required',
+            'breathResult' => 'required',
+            'consent' => 'required',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:5120',
+            
+        ]);
+
+        $image = $request->image;
+        $image_new_name = time().$image->getClientOriginalExtension();
+        $image->move('forms/', $image_new_name);
+
+            $results = new Results();
+            $results->date = $request['date'];
+            $results->time = $request['time'];
+            $results->name = $request['name'];
+            $results->employer = $request['employer'];
+            $results->dob = $request['dob'];
+            $results->job = $request['job'];
+            $results->urineResult = $request['urineResult'];
+            $results->breathResult = $request['breathResult'];
+            $results->consent = $request['consent'];
+            $results->image= $request['forms/' . '$image_new_name'];
+            $results->actionRequired = $request['actionRequired'];
+            $results->notes = $request['notes'];
+            $results->save();
+            
+        
+        
+        Session::flash('created', 'Results created succesfully.');
+        return redirect()->back();
     }
 
     /**

@@ -15,6 +15,18 @@ class CreateResultsTable extends Migration
     {
         Schema::create('results', function (Blueprint $table) {
             $table->increments('id');
+            $table->date('date')->nullable();
+            $table->time('time')->nullable();
+            $table->string('name')->nullable();
+            $table->string('employer')->nullable();
+            $table->date('dob')->nullable();
+            $table->string('job')->nullable();
+            $table->string('urineResult')->nullable();
+            $table->string('breathResult')->nullable();
+            $table->string('consent')->nullable();
+            $table->string('image')->nullable();
+            $table->string('actionRequired')->nullable();
+            $table->string('notes')->nullable();
             $table->timestamps();
         });
     }

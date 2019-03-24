@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/demo', function () {
-    return view('mainpage');
+    return view('index');
 });
 
 Route::get('/record', function () {
@@ -29,3 +29,8 @@ Route::get('/dec', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('/contacts', 'ContactsController');
+
+Route::resource('/results', 'ResultsController');
+

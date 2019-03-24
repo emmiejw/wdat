@@ -25,15 +25,4 @@ class HomeController extends Controller
     {
         return view('home');
     }
-
-    public function mainpage()
-    {
-        return view('mainpage');
-    }
-
-    public function record()
-    {
-        
-        return view('record');
-    }
 }

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contacts;
+use Session;
 
 class ContactsController extends Controller
 {
@@ -13,7 +15,9 @@ class ContactsController extends Controller
      */
     public function index()
     {
-        //
+      $contacts = Contacts::paginate(25);
+
+        return view('contacts.index', compact($contacts, 'contacts'));
     }
 
     /**
@@ -23,7 +27,7 @@ class ContactsController extends Controller
      */
     public function create()
     {
-        //
+        return view('contacts.create');
     }
 
     /**
@@ -34,7 +38,27 @@ class ContactsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+            'company' => 'required',
+            'phone' => 'required',
+            'email' => 'required',
+            'industryType' => 'required',
+            'noEmployees' => 'required',
+        ]);
+
+        $contact = Contacts::create([
+            'name' => $request ->name,
+            'company' => $request ->company,
+            'phone' => $request ->phone,
+            'email' => $request ->email,
+            'industryType' => $request ->industryType,
+            'noEmployees' => $request ->noEmployees,
+            'frequencyOfTests' => $request ->frequencyOfTests,
+        ]);
+        Session::flash('created', 'Company Contact has been added successfully.');
+        
+        return redirect()->back();
     }
 
     /**
