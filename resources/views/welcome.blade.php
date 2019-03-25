@@ -41,6 +41,17 @@
   .parallax-container {
       height: 300px;
     }
+
+    .enquire{
+      margin-top: 250px;
+    }
+
+  .assess, .test{
+    margin-top:  150px;
+  }
+.results{
+  margin-top: 100px;
+}
         
 }
 
