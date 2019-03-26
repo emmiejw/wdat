@@ -1,4 +1,4 @@
-<nav class="nav-wrapper #81d4fa light-blue lighten-3">
+<nav class="nav-wrapper #81d4fa light-blue lighten-1">
     <div class="container">
         <a href="#" class="sidenav-trigger" data-target="mobile-menu">
         <i class="large material-icons" style="color:indigo;">menu</i>
