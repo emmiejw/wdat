@@ -26,17 +26,50 @@ input[type=text] {
     <p class=""><b> Ref no.</b> <input type="text"> <b>Company Name</b> <input type="text"></p>    
     </div>
      <div class="col-5 text-center">
-         <img src="images/logofinal.png" height="60px;" width="250px" style="margin:10px;">
+         <img src="images/logofinal2.png" height="60px;" width="250px" style="margin:10px;">
     </div>
    </div>
    <div class="row" style="border: 2px solid grey; padding-top:1px;">
-   <div class="col-8">
+   <div class="col-5">
        <h5><b>1. Sample Donor Details</b></h5>
     <p><b> Name:</b><input type="text"><input type="text"> <br><br>
       <b>Job Title:</b> <input type="text"></p>    
-    <p><b>DOB:</b> <input type="text"> <b>Gender:</b> <input type="checkbox"> Male  <input type="checkbox"> Female    </p> <b>Safety Critical (e.g. Construction):</b> <input type="checkbox"> Yes <input type="checkbox"> No
+    <p><b>DOB:</b> <input type="text"> <br>
+      <p><b >Gender:</b> <input type="checkbox"> Male  <input type="checkbox"> Female    </p></p> 
    </div>
-     <div class="col-4">
+   <div class="col-4">
+      <h5><b>1B. Sample Donor Medication</b></h5>
+         <table class="table table-bordered ">
+            <thead>
+               <th>Medication</th>
+               <th>Dosage</th>
+            </thead>
+            <tbody>
+               <tr>
+                     <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                     <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                     <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                     <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                     <td></td>
+                     <td></td>
+               </tr>
+            </tbody>
+         </table>
+         <p style="font-size:small;">Please cont. on reverse side if needed</p>
+  </div>
+     <div class="col-3">
         <h5><b>2. Reason for Testing</b></h5>
         <p>Random  <input type="checkbox"><br> 
            Periodic <input type="checkbox"><br>
@@ -81,20 +114,21 @@ input[type=text] {
       <h5><b>Sample Donor</b></h5>
    </row>
    <row class="col-12">
-      <p style="font-size:12;">I certify that I am willing to provide the samples required in order to complete this drug and alcohol test. I confirm that the information provided on this form is correct. I have declared any medication taken in the last 14 days. I CONSENT to my samples being analysed for the presence of drugs and/or alcohol and I understand that this may include further laboratory based analysis in order to confirm the result of any initial analysis undertaken. I give permission for the results of the tests, subsequent tests and reports (if applicable) to be given to or discussed with my employer, the person/organisation paying for this test or other person/organisation that is relevant to its purpose. I understand that this includes any results relating to medication (whether declared or undeclared at the time of this sample collection). I hold the individuals and testing companies involved within the testing procedure blameless against any loss or damage, direct or indirect, for either the results obtained or for any action arising or taken by any person in receipt of this information. I have read and accepted the information above and the 12 point Declaration form shown to me prior to samples being taken.</p>
+      <p style="font-size:12;">I hereby consent to a urine and breath test to detect or monitor the presence of drugs and their metabolites and the presence of alcohol in samples of my breath. I accept that the test does not constitute a violation of my human rights. In the event of a non-negative result (drugs) and or positive result (alcohol), I understand the policy of <input type="text"><input type="text">. I accept the interpretation of of my test results by the assessor. I give consent for the employer/ agency/ person paying for the tests to have access to the results and accept that records of the results will be kept. I understand this includes any result relating to medication, whether declared or undeclared at the time of sample collection. I understand that a chain of custody maybe performed in light of a non-negative drugs screen and give consent for my sample to be laboratory tested to confirm the results of any initial analysis undertaken. I hold the individuals and testing companies involved within this procedure blameless against any loss or damage, direct or indirect, for either the results obtained or for any action arising or taken by any person in receipt of this information. </p>
    </row>
    <p style="margin-left:10px; "><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"></p>  
 </div>
 <div class="row" style="border: 2px solid grey; padding-top:1px; padding-left:10px;">
    <div class="row">
       <div class="col-2"><h5><b>6. Alcohol Testing:</b></h5></div>
-      <div class="col-8"><b>Please confirm that the sample donor has not eaten, drank (except water), smoked, chewed gum or used mouthwash in the last 15 minutes.</b></div>
+      <div class="col-8"><b>Please confirm that the sample donor has not eaten, drank (except water), smoked, chewed gum or used mouthwash in the last 15 minutes.</b> </div>
       <div class="col-2">
             <i class="far fa-square" style="font-size:40px"> </i>  Please initial
       
          </div>
    </div>
-   <div class="row"style="margin-top:1px;">
+   <br>
+   {{-- <div class="row"style="margin-top:1px;">
    
       <div class="col" >
             <h5><b>Saliva Results:</b></h5>
@@ -112,7 +146,7 @@ input[type=text] {
          <row class="col-2">
                <input type="checkbox" style="margin:1px;"> 300mg/100ml
         </row>
-   </div>
+   </div> --}}
    <div class="row"style="margin-top:1px;">
    
    <div class="col" >
@@ -120,30 +154,39 @@ input[type=text] {
          <p style="font-size:x-small">Result of screen shown approx BREATH ALCOHOL CONCENTRATION μg/100ml The <u>UK</u> driving limit is 80mg/100ml.  </p>
    </div>
    
-      <row class="col-3">
+      <row class="col-2">
          <p><b>Reading 1:</b> ............ μg/100ml</p>
       </row>
-      <row class="col-3">
+      <row class="col-2">
          <p><b> Reading 2:</b> ............ μg/100ml</p>
       </row>
-      <row class="col-3">
+      <row class="col-2">
          <p><b> Reading 3:</b> ............ μg/100ml</p>
+      </row>
+      <row class="col-2">
+         <p><b> Reading 4:</b> ............ μg/100ml</p>
       </row>
          <div class="row">
             <div class="col-9">
                <ul>
                   <li>1. Result of > 0μg/100ml a second reading is required 15 minute wait before taking the second reading</li>
-                  <li>2. Third reading required if second reading is higher than the first. Wait 15 minutes before taking third reading</li>
+                  <li>2. Further reading required if second reading is higher than the first. Wait 15 minutes before taking further reading</li>
                   <li>3. Last reading will be used to report results in all cases</li>
                   <li>I confirm the above results recorded are accurate and true</li>
                </ul>
             </div>
             <div class="col-3">
-               <P class="text-center" style="border:2px solid grey;"><b>CLIENT CUT-OFF LEVEL</b><br>
-               ............ μg/100ml</P>
+               <p class="text-center "><b>CLIENT CUT-OFF LEVEL</b><br>
+               ............ μg/100ml <br><br>
+               <p style="font-size:x-small" class="text-center">
+                     Breathalyzer Calibration Date:<input type="text"> <br></p>   
+
+               </p>
+               </p>
+               
             </div>
          </div>
-         <p style="margin-left:15px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"></p>   
+         <p style="margin-left:15px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"> 
 </div>         
    
 
@@ -156,8 +199,17 @@ input[type=text] {
    <div class="row">
       <div class="col-12">
             <div class="container">  
-               <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox"> YES  <input type="checkbox"> NO, sample invalid see SOP instructions</p>
-
+               <div class="row">
+                  <div class="col-4">
+                        <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox"> YES  
+                  </div>
+                  <div class="col-8" style="font-size:x-small" >
+                        Drug kit Lot no. <input type="text"> Drug kit Expiry Date: <input type="text"></p>
+                  </div>
+               </div>
+                      
+               <p style="font-size:small;">Valid results require the presence of all control lines, where magenta test lines do not form, the sample donor is considered non-negative for that particular drug. A formed line is a negative regardless of how feint the line is.
+               </p>
                   <table class="table table-bordered table-sm">
                     <thead>
                       <tr>
@@ -171,18 +223,10 @@ input[type=text] {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Amphetamines (AMP)</td>
+                        <td>Methamphetamine (MET)</td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
-                        <td style="width:250px;"></td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                      </tr>
-                      <tr>
-                        <td>Benzodiazapines (BZO)</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                        <td style="width:250px;"></td>
+                        <td >Ecstasy (MDMA)</td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
                       </tr>
@@ -190,28 +234,36 @@ input[type=text] {
                         <td>Cocaine (COC)</td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
+                        <td >Methadone (MTD) </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Cannabis (THC) </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td >Tramadol (TML)</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Amphetamines (AMP) </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td >Ketamine (KET)</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                      </tr>
+                      <tr>
+                        <td>Morphine (MOP)</td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
                         <td style="width:250px;"></td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
                       </tr>
                       <tr>
-                        <td>Cannabis (THC)</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                        <td style="width:250px;"></td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                      </tr>
-                      <tr>
-                        <td>Methamphetamine's (MET)</td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                        <td style="width:250px;"></td>
-                        <td><input type="checkbox"></td>
-                        <td><input type="checkbox"></td>
-                      </tr>
-                      <tr>
-                        <td>Opiates (OPI)</td>
+                        <td>Benzodiazepines (BZO) </td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
                         <td style="width:250px;"></td>
@@ -222,29 +274,18 @@ input[type=text] {
                   </table>
                 </div>    
       </div>
-     
-           
       </div>
       </div>
       <div class="row" style="border: 2px solid grey; padding-top:10px; padding-left:10px;">
-        <h5 style="padding-left:10px; padding-right:70px;"><b>8. Testings Incomplete</b></h5>     
-         <p>No result for Alcohol testing <input type="checkbox" name="" id=""> Drug testing <input type="checkbox" ></p> 
-         <div class="row">
-            <div class="col-9">
-                  <p>Specify a reason e.g. the donor was unwilling to provide sample/consent: </p>
-            </div>
-            <div class="col-3">
-                  <input type="text">
-            </div>
-         </div>
-      </div>  
-      <div class="row" style="border: 2px solid grey; padding-top:10px; padding-left:10px;">
-         <h5 style="padding-left:10px; padding-right:70px;"><b>9. Action Taken by Sample Collector</b></h5>   
+         <h5 style="padding-left:10px; padding-right:70px;"><b>8. Action Taken by Sample Collector</b></h5>   
 
-         <p style="margin-right:10px;">No action required, all tests negative  </p>  <input type="checkbox">
-         <p style="margin-right:10px; margin-left:10px;">Notify the requester of any non-negative results  </p> <input type="checkbox">
+         <p style="margin-right:10px;">No action required, all tests negative  </p>  <input type="checkbox"> 
+         <br><br>
+         <p style="margin-right:10px; margin-left:20px;">Notify the requester of any non-negative <input type="checkbox" style="margin:1px;"> Alcohol   <input type="checkbox" style="margin:1px;"> Drugs</p>
          <p style="margin-right:10px; margin-left:10px;">Laboratory tests ordered and urine samples declared and sealed for dispatch</p>   <input type="checkbox">      
-         <p style="margin-right:10px; margin-left:20px;">Testers signature </p> <input type="text" style="margin-bottom:2px;">
+         <p style="margin-right:10px; margin-left:20px;">Additional Information</p> <input type="text" style="margin-bottom:10px;"><input type="text" style="margin-bottom:10px;"> <br>
+         <p style="margin-right:10px; margin-left:20px;">Testers signature </p> <input type="text" style="margin-bottom:10px;">
+         <br>
          </div>
      
       </div>    

@@ -27,7 +27,8 @@
       background: transparent;
     }
     .page-footer{
-        background-color: black;
+        background-image: url('images/IMG_39861.jpg');
+        background-size: cover;
     }
     .footer-copyright{
         background-image: url('images/wine.jpg');

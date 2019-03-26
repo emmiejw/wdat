@@ -8,10 +8,10 @@
                 <br>
                 <br>
                     <i class="material-icons">phone</i>  
-                          <a href="tel:02380 897025"> 07745 147376</a>  
+                          <a href="tel:02380 897025"><b style="font-size:25px;">     07745 147376</b> </a>  
                      <br><br>
                      <i class="material-icons">email</i> 
-                    <a href="mailto:workplacedat@gmail.com">workplacedat@gmail.com</a>  <br>
+                    <a href="mailto:workplacedat@gmail.com"><b style="font-size:25px;">    workplacedat@gmail.com</b> </a>  <br>
                      <br>
             </div>
           </div>
