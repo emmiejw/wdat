@@ -15,15 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo', function () {
-    return view('index');
-});
-
 Route::get('/record', function () {
     return view('record');
 });
 Route::get('/dec', function () {
     return view('dec');
+});
+
+Route::get('/gdpr', function(){
+    return view('gdpr');
 });
 
 Auth::routes();

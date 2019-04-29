@@ -5,8 +5,8 @@ body{
     border: solid black 1px;
 }
 p{
-   font-size: 16px;
-}
+   font-size: 15px;
+}                                                          
 
 input[type=text] {
   border: none;
@@ -25,9 +25,17 @@ input[type=text] {
          <h2>Drug and Alcohol Testing Results Record</h2>
     <p class=""><b> Ref no.</b> <input type="text"> <b>Company Name</b> <input type="text"></p>    
     </div>
-     <div class="col-5 text-center">
-         <img src="images/logofinal2.png" height="60px;" width="250px" style="margin:10px;">
-    </div>
+     <div class="col-2 text-center">
+         <img src="images/logofinal2.png" height="60px;" width="150px" style="margin:10px;">
+      </div>
+      <div class="col-1 text-center" style="margin-top:auto;">
+         <p style="font-size: small;">working in conjunction with</p> 
+      </div>
+      <div class="col-2">
+         <img src="images/tbt.jpg" height="60px;" width="100px" style="margin:10px;">
+      </div>
+
+  
    </div>
    <div class="row" style="border: 2px solid grey; padding-top:1px;">
    <div class="col-5">
@@ -272,6 +280,8 @@ input[type=text] {
                        </tr>   
                     </tbody>
                   </table>
+         <p style="margin-left:15px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"> 
+
                 </div>    
       </div>
       </div>
