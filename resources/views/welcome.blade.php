@@ -80,7 +80,7 @@
 <br>
 <section class="container section scrollspy" id="about">
     <div class="row center-align">
-        <blockquote><h4><em>"Working together for a safer, healthier future for your employees and company"</em></h4></blockquote><br>
+        <blockquote><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4></blockquote><br>
         <p>- Mrs Ketley, Managing Director</p>
     </div>
     <hr>

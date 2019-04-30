@@ -2,7 +2,7 @@
         <div class="row">
             <div class="col s12 l5">
                 <h2 class="indigo-text text-darken-4">Get in Touch</h2>
-                <p>Please feel free to contact us to find out more information about our services</p>
+                <p>Please feel free to contact us to discuss your company's requirements. We can assist you in taking your business to the next level  whereby facilitating a drugs and alcohol conscious safety environment.</p>
             </div>
             <div class="col s12 l5 offset-l2">
                 <br>

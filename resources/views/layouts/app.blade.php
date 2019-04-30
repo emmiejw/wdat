@@ -20,11 +20,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
     body{
-      /* background-image: url('images/IMG_3985.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-     height: 100vh
-    } */
+        ol, li {
+            font-size: 22px;
+        }
+     
+    } 
     footer{
       background-color:white;
     }
