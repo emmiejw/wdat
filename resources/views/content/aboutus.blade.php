@@ -62,9 +62,9 @@
         <p class="flow-text"><b>So what do the results mean?</b> <br>
         Most samples are negative for substances. However, if a non-negative result is produced, there are 3 options: <br>
         <ul  class="flow-text">
-            <li ><img src="images/options.png" style="height:25px; width:25px;  margin-right: 15px;">The donor is happy with this result, is therefore in agreement with the substances found in their urine and signs the declaration form.</li>
-            <li><img src="images/options.png" style="height:25px; width:25px;  margin-right: 15px;">A re-test is requested ( at a further cost).</li>
-            <li><img src="images/options.png" style="height:25px; width:25px;  margin-right: 15px;">A full chain of custody laboratory test is performed to finalise the result ( please note this incurs a further fee per individual drug tested). </li>
+            <li ><img src="images/option1.png" style="height:25px; width:25px;  margin-right: 15px;">The donor is happy with this result, is therefore in agreement with the substances found in their urine and signs the declaration form.</li> <br>
+            <li><img src="images/option1.png" style="height:25px; width:25px;  margin-right: 15px;">A re-test is requested ( at a further cost).</li> <br>
+            <li><img src="images/option1.png" style="height:25px; width:25px;  margin-right: 15px;">A full chain of custody laboratory test is performed to finalise the result ( please note this incurs a further fee per individual drug tested). </li>
         </ul>
         <p  class="flow-text">
                 With the breathalyser results, if a level is produced at or above the company cut off another test can be performed 15 minutes later. This can then be repeated upto a maximum of 3 more times in one visit. This will identify whether the employees micrograms of ethanol per 100ml of breath is reducing, increasing or staying the same.  The current UK driving limit is 35(.35) micrograms per 100ml of breath. <br>
