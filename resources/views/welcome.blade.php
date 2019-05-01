@@ -53,6 +53,10 @@
 .results{
   margin-top: 100px;
 }
+
+.tt {
+            list-style-image: url('/images/tt.jpg');
+        }
         
 }
 
@@ -81,7 +85,9 @@
 <section class="container section scrollspy" id="about">
     <div class="row center-align">
         <blockquote><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4></blockquote><br>
-        <p>- Mrs Ketley, Managing Director</p>
+        <img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;">
+        <p>- Mrs Ketley, Managing Director    </p>
+        {{-- <br> --}}
     </div>
     <hr>
     <br>

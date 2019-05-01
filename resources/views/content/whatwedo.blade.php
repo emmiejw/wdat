@@ -28,18 +28,18 @@
                 </p>
                 <p><b>How it works:</b><br>
                     Once a drug is consumed, the end product looks much different once it has been passed through the body. Drugs enter the body in psychedelic form and level as a metabolite. A urine test is able to detect the metabolites and deliver a confirmatory report indicating their presence though drug-protein conjugates. Tests can be conducted instantly, or samples can be collected and sent for our laboratory for more in-depth analysis. We use the most up to date and tested membranes using a 10 drug split key and test for: <br>
-                    <ol>
-                        <li>Methamphetamine (MET)</li>
-                        <li>Cocaine (COC)</li>
-                        <li>Cannabis (THC)</li>
-                        <li>Amphetamines (AMP)</li>
-                        <li>Morphine (MOP)</li>
-                        <li>Benzodiazepines (BZO)</li>
-                        <li>Ecstasy (MDMA)</li>
-                        <li>Methadone (MTD)</li>
-                        <li>Tramadol (TML)</li>
-                        <li>Ketamine (KET)</li>
-                    </ol>
+                    <ul>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methamphetamine (MET)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cocaine (COC)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cannabis (THC)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Amphetamines (AMP)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Morphine (MOP)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Benzodiazepines (BZO)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ecstasy (MDMA)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methadone (MTD)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Tramadol (TML)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ketamine (KET)</li>
+                    </ul>
                     All our drug testers are able to check for adulteration (PH, GH and temperature).  <br>
                     <b>What does this mean?</b> <br>
                     Using the most up to date scientifically tested and approved urine sampling methods, we are able to ensure no masking agents or dilution have taken place, e.g. adding bleach/hydrogen peroxide, diluting with water or attempting to alter the PH of the urine.

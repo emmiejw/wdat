@@ -19,12 +19,8 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
-    body{
-        ol, li {
-            font-size: 22px;
-        }
+    
      
-    } 
     footer{
       background-color:white;
     }
