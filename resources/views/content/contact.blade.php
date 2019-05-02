@@ -7,14 +7,14 @@
             <div class="col s12 l5 offset-l2">
                 <br>
                 <br>
+                <br>
                 <button class="button">
-                    <i class="material-icons">phone</i>  
+                    <i class="material-icons" style="color: #0080ff;">phone</i>  
                     <a href="tel:02380 897025"><b style="font-size:22px;">     Call us</b> </a>
                 </button>
-                <br>
-                <br>
-                <button class="button">
-                    <i class="material-icons">email</i> 
+                
+                <button class="button" style="margin-left:10px;">
+                    <i class="material-icons" style="color: #0080ff;">email</i> 
                     <a href="mailto:workplacedat@gmail.com"><b style="font-size:22px;">    Email Us</b> </a>
                 </button>
 
