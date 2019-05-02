@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
         <div class="col l12 s12">
-            <div class="container " style="float:left;">
+            <div class="container  text-block" style="float:left;">
                <p >© 2019 Copyright Workplace Drug & Alcohol Testing  </p> 
                <p >Company No. 11837128</p> 
                 <p >

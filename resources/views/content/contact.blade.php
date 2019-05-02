@@ -7,11 +7,18 @@
             <div class="col s12 l5 offset-l2">
                 <br>
                 <br>
+                <button class="button">
                     <i class="material-icons">phone</i>  
-                          <a href="tel:02380 897025"><b style="font-size:22px;">     07745 147376</b> </a>  
-                     <br><br>
-                     <i class="material-icons">email</i> 
-                    <a href="mailto:workplacedat@gmail.com"><b style="font-size:22px;">    workplacedat@gmail.com</b> </a>  <br>
+                    <a href="tel:02380 897025"><b style="font-size:22px;">     Call us</b> </a>
+                </button>
+                <br>
+                <br>
+                <button class="button">
+                    <i class="material-icons">email</i> 
+                    <a href="mailto:workplacedat@gmail.com"><b style="font-size:22px;">    Email Us</b> </a>
+                </button>
+
+                       <br>
                      <br>
             </div>
           </div>

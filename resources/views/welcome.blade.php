@@ -27,13 +27,43 @@
       background: transparent;
     }
     .page-footer{
-        background-image: url('images/IMG_39861.jpg');
+        background-image: url('images/pp.jpg');
         background-size: cover;
     }
     .footer-copyright{
         background-image: url('images/wine.jpg');
         background-size: cover;
     }
+
+    .text-block {
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 100%;
+        padding: 10px;
+        margin-bottom:20px;
+      }
+
+      .button {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: ;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+
+.button:hover {background-color: silver}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
     @media only screen and (max-width: 600px) {
       .navlogo {
         max-width: 100%;
