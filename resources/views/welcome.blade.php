@@ -26,10 +26,10 @@
     .tabs .tab a:focus, .tabs .tab a:focus.active{
       background: transparent;
     }
-    .page-footer{
+    /* .page-footer{
         background-image: url('images/pp.jpg');
         background-size: cover;
-    }
+    } */
     .footer-copyright{
         background-image: url('images/wine.jpg');
         background-size: cover;
