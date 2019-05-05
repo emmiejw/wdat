@@ -2,7 +2,7 @@
 <nav class="nav-wrapper #e8f5e9 green lighten-5">
         <div class="container">
             <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-            <i class="large material-icons" style="color:indigo;">menu</i>
+            <i class="large material-icons" style="color:indigo; transform:rotate(90deg);">menu</i>
             </a>
             <ul class="left hide-on-med-and-down">
             <li><a style="color:indigo;"href="#about">About Us</a></li>
