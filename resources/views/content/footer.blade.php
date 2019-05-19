@@ -9,6 +9,7 @@
                          Website Designed and Created by <a href="https://emilywallace-price.co.uk"><b> Emily Wallace - Price</b> </a> <br>
                          <b>Images produced by Maurice Mikkers, Bevshots, Sarah Schoenfeld & Zosimus </b>
                  </p>
+                 <div style="float:right;"><a style="color:indigo;"href="/">Back to the Top</a></div>
         </div>
       </div>
     
