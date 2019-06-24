@@ -23,24 +23,24 @@ input[type=text] {
    <div class="row">
      <div class="col-7">
          <h2>Drug and Alcohol Testing Results Record</h2>
-    <p class=""><b> Ref no.</b> <input type="text"> <b>Company Name</b> <input type="text"></p>    
+    <p class=""><b> Ref no.</b> <input type="text" style="font-size:xx-large;"> <br> <br><b>Company Name</b> <input type="text"><input type="text"></p>    
     </div>
      <div class="col-2 text-center">
-         <img src="images/logofinal2.png" height="60px;" width="150px" style="margin:10px;">
+         <img src="images/logofinal2.png" height="60px;" width="100px" style="margin:15px;">
       </div>
-      <div class="col-1 text-center" style="margin-top:auto;">
+      <div class="col-1 text-center" style="margin-top:15px;">
          <p style="font-size: small;">working in conjunction with</p> 
       </div>
       <div class="col-2">
-         <img src="images/tbt.jpg" height="60px;" width="100px" style="margin:10px;">
+         <img src="images/tbt.jpg" height="60px;" width="90px" style="margin:15px;">
       </div>
 
-  
+  <br>
    </div>
-   <div class="row" style="border: 2px solid grey; padding-top:1px;">
-   <div class="col-5">
+   <div class="row" style="border-top: 2px solid grey; padding-top:20px;">
+   <div class="col-6">
        <h5><b>1. Sample Donor Details</b></h5>
-    <p><b> Name:</b><input type="text"><input type="text"> <br><br>
+    <p><b> Name:</b><input type="text"><input type="text"><input type="text"> <br><br>
       <b>Job Title:</b> <input type="text"></p>    
     <p><b>DOB:</b> <input type="text"> <br>
       <p><b >Gender:</b> <input type="checkbox"> Male  <input type="checkbox"> Female    </p></p> 
@@ -51,25 +51,31 @@ input[type=text] {
             <thead>
                <th>Medication</th>
                <th>Dosage</th>
+               <th>Reason</th>
             </thead>
             <tbody>
                <tr>
                      <td></td>
                      <td></td>
-               </tr>
-               <tr>
-                     <td></td>
                      <td></td>
                </tr>
                <tr>
                      <td></td>
                      <td></td>
+                     <td></td>
                </tr>
                <tr>
                      <td></td>
                      <td></td>
+                     <td></td>
                </tr>
                <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+               </tr>
+               <tr>
+                     <td></td>
                      <td></td>
                      <td></td>
                </tr>
@@ -77,7 +83,7 @@ input[type=text] {
          </table>
          <p style="font-size:small;">Please cont. on reverse side if needed</p>
   </div>
-     <div class="col-3">
+     <div class="col-2">
         <h5><b>2. Reason for Testing</b></h5>
         <p>Random  <input type="checkbox"><br> 
            Periodic <input type="checkbox"><br>
@@ -87,7 +93,7 @@ input[type=text] {
         Other: <input type="text"></p>    
      </div>      
    </div> 
-   <div class="row" style="border: 2px solid grey; padding-top:1px;">
+   <div class="row" style="border-top: 2px solid grey; padding-top:20px;">
       <row class="col-3">
          <h5><b>3. Proof of Identity</b></h5>
       </row>
@@ -104,7 +110,7 @@ input[type=text] {
             <p><b>PART 1: </b>  Photo ID provided: <input type="text">    
       </div>
       <div class="col-6">
-            ID related number: <input type="text">
+            ID related number: <input type="text"><input type="text">
       </div>
       <div class="col-12">
             <p><b>Part 2:  An authorised person e.g. Employer/Solicitor must sign below.</b> <span>I can confirm I am able to identify the sample donor and that the details entered above are accurate to the best of my knowledge</span></p>
@@ -115,18 +121,19 @@ input[type=text] {
          <div class="col-3" style="padding-left:50px;">Relationship to Donor: <br><input type="text"></div>
          <div class="col-3" style="padding-left:50px;">Employer: <br><input type="text"></div>
       </div>  
-          
    </div>
-<div class="row" style="border: 2px solid grey; padding-top:1px;">
+   <br>
+<div class="row" style="border-top: 2px solid grey; padding-top:20px;">
    <row class="col-12">
       <h5><b>Sample Donor</b></h5>
    </row>
    <row class="col-12">
-      <p style="font-size:12;">I hereby consent to a urine and breath test to detect or monitor the presence of drugs and their metabolites and the presence of alcohol in samples of my breath. I accept that the test does not constitute a violation of my human rights. In the event of a non-negative result (drugs) and or positive result (alcohol), I understand the policy of <input type="text"><input type="text">. I accept the interpretation of of my test results by the assessor. I give consent for the employer/ agency/ person paying for the tests to have access to the results and accept that records of the results will be kept. I understand this includes any result relating to medication, whether declared or undeclared at the time of sample collection. I understand that a chain of custody maybe performed in light of a non-negative drugs screen and give consent for my sample to be laboratory tested to confirm the results of any initial analysis undertaken. I hold the individuals and testing companies involved within this procedure blameless against any loss or damage, direct or indirect, for either the results obtained or for any action arising or taken by any person in receipt of this information. </p>
+      <p style="font-size:12;">I hereby consent to a urine and breath test to detect or monitor the presence of drugs and their metabolites and the presence of alcohol in samples of my breath. I accept that the test does not constitute a violation of my human rights. In the event of a non-negative result (drugs) and or positive result (alcohol), I understand the policy of <input type="text"><input type="text">. I accept the interpretation of my test results by the assessor. I give consent for the employer/ agency/ person paying for the tests to have access to the results and accept that records of the results will be kept. I understand this includes any result relating to medication, whether declared or undeclared at the time of sample collection. I understand that a chain of custody maybe performed in light of a non-negative drugs screen and give consent for my sample to be laboratory tested to confirm the results of any initial analysis undertaken. I hold the individuals and testing companies involved within this procedure blameless against any loss or damage, direct or indirect, for either the results obtained or for any action arising or taken by any person in receipt of this information. </p>
    </row>
    <p style="margin-left:10px; "><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"></p>  
 </div>
-<div class="row" style="border: 2px solid grey; padding-top:1px; padding-left:10px;">
+<br>
+<div class="row" style="border-top: 2px solid grey; padding-top:20px; padding-left:10px;">
    <div class="row">
       <div class="col-2"><h5><b>6. Alcohol Testing:</b></h5></div>
       <div class="col-8"><b>Please confirm that the sample donor has not eaten, drank (except water), smoked, chewed gum or used mouthwash in the last 15 minutes.</b> </div>
@@ -159,7 +166,7 @@ input[type=text] {
    
    <div class="col" >
          <h5><b>Breath Results:</b></h5>
-         <p style="font-size:x-small">Result of screen shown approx BREATH ALCOHOL CONCENTRATION μg/100ml The <u>UK</u> driving limit is 80mg/100ml.  </p>
+         <p style="font-size:x-small">Result of screen shown approx BREATH ALCOHOL CONCENTRATION μg/100ml The <u>UK</u> driving limit is 35μg/100ml.  </p>
    </div>
    
       <row class="col-2">
@@ -196,11 +203,9 @@ input[type=text] {
          </div>
          <p style="margin-left:15px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"> 
 </div>         
-   
-
 </div>
-
-<div class="row" style="border: 2px solid grey; padding-top:1px; padding-left:10px;">
+<br>
+<div class="row" style="border-top: 2px solid grey; padding-top:20px; padding-left:10px;">
    <div class="col-12" >
          <h5><b>7. Drug Testing: Details and Results</b>  Sample type: Urine</h5>
    </div>
@@ -209,10 +214,10 @@ input[type=text] {
             <div class="container">  
                <div class="row">
                   <div class="col-4">
-                        <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox"> YES  
+                        <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox" style="margin-left:15px; margin-right:15px;">    YES  
                   </div>
                   <div class="col-8" style="font-size:x-small" >
-                        Drug kit Lot no. <input type="text"> Drug kit Expiry Date: <input type="text"></p>
+                        Drug kit Lot no. <input type="text"><input type="text"><input type="text"> Drug kit Expiry Date: <input type="text"></p>
                   </div>
                </div>
                       
@@ -286,7 +291,7 @@ input[type=text] {
       </div>
       </div>
       </div>
-      <div class="row" style="border: 2px solid grey; padding-top:10px; padding-left:10px;">
+      <div class="row" style="border-top: 2px solid grey; padding-top:15px; padding-left:10px;">
          <h5 style="padding-left:10px; padding-right:70px;"><b>8. Action Taken by Sample Collector</b></h5>   
 
          <p style="margin-right:10px;">No action required, all tests negative  </p>  <input type="checkbox"> 
@@ -294,8 +299,11 @@ input[type=text] {
          <p style="margin-right:10px; margin-left:20px;">Notify the requester of any non-negative <input type="checkbox" style="margin:1px;"> Alcohol   <input type="checkbox" style="margin:1px;"> Drugs</p>
          <p style="margin-right:10px; margin-left:10px;">Laboratory tests ordered and urine samples declared and sealed for dispatch</p>   <input type="checkbox">      
          <p style="margin-right:10px; margin-left:20px;">Additional Information</p> <input type="text" style="margin-bottom:10px;"><input type="text" style="margin-bottom:10px;"> <br>
-         <p style="margin-right:10px; margin-left:20px;">Testers signature </p> <input type="text" style="margin-bottom:10px;">
+         
          <br>
+         <div class="row" >
+               <p style="margin-right:10px; margin-left:10px;"> Testers signature </p> <input type="text" ><input type="text">
+         </div>
          </div>
      
       </div>    
