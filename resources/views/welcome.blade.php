@@ -124,7 +124,7 @@
   </table>
 
     <div class="row center-align">
-        <img src="images/bcard.jpg"  class="" style="height:350px; width:450px; ">
+        <img src="images/bcard.jpg"  class="" style="height:250px; width:350px; ">
      
     </div>
     <hr>
@@ -133,7 +133,7 @@
 
     <div class="parallax-container">
         <div class="parallax">
-            <img src="images/pp.jpeg" >
+            <img src="images/pp.jpg" >
         </div>
     </div>
                 
