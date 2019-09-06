@@ -113,35 +113,43 @@
       </div>
 <br>
 <section class="container section scrollspy" id="about">
+  <table class="table table-borderless">
+    <tr>
+  <td><img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>  
+    <td><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4>
+    <br>
+    - Mrs Ketley, Managing Director   
+    </td>
+    </tr>
+  </table>
+
     <div class="row center-align">
-        <blockquote><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4></blockquote><br>
-        <img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;">
-        <p>- Mrs Ketley, Managing Director    </p>
-        {{-- <br> --}}
+        <img src="images/bcard.jpg"  class="" style="height:350px; width:450px; ">
+     
     </div>
     <hr>
-    <br>
- @include('content.aboutus')
+    
+    @include('content.whatwedo')
 
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="images/blue.jpeg" >
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/pp.jpeg" >
+        </div>
     </div>
-</div>
-            
-@include('content.whatwedo')              
-
-
-<div class="parallax-container">
-    <div class="parallax">
-        <img src="images/wine.jpg" >
+                
+    @include('content.aboutus')              
+    
+    
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/wine.jpg" >
+        </div>
     </div>
-</div>
-
-            
-@include('content.contact')    
-
-@include('content.footer')
+    
+                
+    @include('content.contact')    
+    
+    @include('content.footer')
 </main>   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>

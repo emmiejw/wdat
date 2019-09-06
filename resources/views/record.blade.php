@@ -26,7 +26,7 @@ input[type=text] {
     <p class=""><b> Ref no.</b> <input type="text" style="font-size:xx-large;"> <br> <br><b>Company Name</b> <input type="text"><input type="text"></p>    
     </div>
      <div class="col-2 text-center">
-         <img src="images/logofinal2.png" height="60px;" width="100px" style="margin:15px;">
+         <img src="images/logofinal1.png" height= "80px;" width="150px" style="margin:15px;">
       </div>
       <div class="col-1 text-center" style="margin-top:15px;">
          <p style="font-size: small;">working in conjunction with</p> 
@@ -214,10 +214,10 @@ input[type=text] {
             <div class="container">  
                <div class="row">
                   <div class="col-4">
-                        <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox" style="margin-left:15px; margin-right:15px;">    YES  
+                        <p style="font-size:small;">Sample temperature range (32-38 deg) <input type="checkbox" style="margin-left:15px; margin-right:5px;">  YES  
                   </div>
                   <div class="col-8" style="font-size:x-small" >
-                        Drug kit Lot no. <input type="text"><input type="text"><input type="text"> Drug kit Expiry Date: <input type="text"></p>
+                        Drug kit Lot no. <input type="text"><input type="text"> Drug kit Expiry Date: <input type="text"></p>
                   </div>
                </div>
                       

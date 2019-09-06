@@ -1,5 +1,5 @@
 <div class="parallax-container">
-        <div class="parallax"><img src="images/pp.jpg"></div>
+        <div class="parallax"><img src="images/blue.jpg"></div>
       </div>
       <div class="section white">
         <div class="row container ">

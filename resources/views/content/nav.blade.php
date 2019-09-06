@@ -16,7 +16,8 @@
     </div>
     <ul class="sidenav grey lighten-2" id="mobile-menu">
             <li><a style="color:indigo;"href="#about">About Us</a></li>
-            <li><a style="color:indigo;"href="#services">Services</a></li>
+            <li><a style="color:indigo;"href="#services">What We Do</a></li>
+            <li><a style="color:indigo;"href="#information">Information</a></li>
             <li><a style="color:indigo;"href="#contact">Contact</a></li>
             </ul>
     
