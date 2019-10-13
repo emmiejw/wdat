@@ -153,6 +153,8 @@
 </main>   
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script type="text/javascript">function add_chatinline(){var hccid=34450465;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatinline(); </script>
   <script>
     $(document).ready(function(){
       $('.sidenav').sidenav();
@@ -163,7 +165,5 @@
       $('.scrollspy').scrollSpy();
     });
   </script>
-<script type="text/javascript">function add_chatinline(){var hccid=34450465;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
-  add_chatinline(); </script>
 </body>
 </html>
