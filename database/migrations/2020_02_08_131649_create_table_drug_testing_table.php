@@ -20,9 +20,6 @@ class CreateTableDrugTestingTable extends Migration
             $table->boolean('temp');
             $table->integer('kit_no');
             $table->date('kit_exp_date');
-            $table->string('drug_tested');
-            $table->boolean('negative');
-            $table->boolean('non_negative');
             $table->timestamps();
         });
     }

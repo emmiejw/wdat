@@ -20,11 +20,10 @@ class CreateTableProofOfIndentityTable extends Migration
             $table->boolean('id_available');
             $table->string('type_of_id');
             $table->bigInteger('id_number');
-            $table->string('name');
-            $table->string('sig');
+            $table->string('wit_name');
+            $table->string('wit_sig');
             $table->string('relationship_donor');
-            $table->string('company');
-            $table->boolean('counter_sig_name');
+            $table->string('wit_company');
             $table->timestamps();
         });
     }

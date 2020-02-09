@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableClientMedicationTable extends Migration
+class CreateTableMedicationTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTableClientMedicationTable extends Migration
      */
     public function up()
     {
-        Schema::create('table_client_medication', function (Blueprint $table) {
+        Schema::create('table_medication', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('donor_id')->unsigned();
             $table->foreign('donor_id')->references('id')->on('donors')->onDelete('cascade');
@@ -30,6 +30,6 @@ class CreateTableClientMedicationTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_client_medication');
+        Schema::dropIfExists('table_medication');
     }
 }

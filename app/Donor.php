@@ -6,7 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Donor extends Model
 {
-    protected $fillable = ('');
+    protected $fillable = [
+        'ref',
+        'company_id',
+        'donor_name',
+        'job_title',
+        'dob',
+        'gender'
+    ];
 
     public function companies()
     {
@@ -46,5 +53,10 @@ class Donor extends Model
     public function reason_for_tests()
     {
         $this->hasMany(ReasonForTest::class);
+    }
+
+    public function drugs_tested()
+    {
+        $this->hasMany(Drug::class);
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableAlcoholTestingTable extends Migration
+class CreateDrugsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,19 +13,13 @@ class CreateTableAlcoholTestingTable extends Migration
      */
     public function up()
     {
-        Schema::create('table_alcohol_testing', function (Blueprint $table) {
+        Schema::create('drugs', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('donor_id')->unsigned();
             $table->foreign('donor_id')->references('id')->on('donors')->onDelete('cascade');
-            $table->string('consumption');
-            $table->integer('reading_1');
-            $table->integer('reading_2');
-            $table->integer('reading_3');
-            $table->integer('reading_4');
-            $table->integer('client_cut_off');
-            $table->date('b_calib_date');
-            $table->string('donor_sig');
-            $table->date('date_test');
+            $table->string('drug_tested');
+            $table->boolean('negative');
+            $table->boolean('non_negative');
             $table->timestamps();
         });
     }
@@ -37,6 +31,6 @@ class CreateTableAlcoholTestingTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_alcohol_testing');
+        Schema::dropIfExists('drugs');
     }
 }

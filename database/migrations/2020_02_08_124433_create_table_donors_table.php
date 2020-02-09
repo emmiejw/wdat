@@ -19,7 +19,7 @@ class CreateTableDonorsTable extends Migration
             $table->integer('company_id')->unsigned();
             $table->foreign('company_id')->references('id')->on('companies')
             ->onDelete('cascade');
-            $table->string('name');
+            $table->string('donor_name');
             $table->string('job_title');
             $table->date('dob');
             $table->string('gender');

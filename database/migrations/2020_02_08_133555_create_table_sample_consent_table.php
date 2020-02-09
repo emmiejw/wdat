@@ -17,7 +17,7 @@ class CreateTableSampleConsentTable extends Migration
             $table->increments('id');
             $table->integer('donor_id')->unsigned();
             $table->foreign('donor_id')->references('id')->on('donors')->onDelete('cascade');
-            $table->string('sig');
+            $table->string('sample_sig');
             $table->date('test_date');
             $table->timestamps();
         });
