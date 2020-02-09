@@ -23,7 +23,6 @@ class CreateTableDonorsTable extends Migration
             $table->string('job_title');
             $table->date('dob');
             $table->string('gender');
-            
             $table->timestamps();
         });
 }

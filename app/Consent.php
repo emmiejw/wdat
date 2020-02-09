@@ -4,12 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Company extends Model
+class Consent extends Model
 {
-    protected $fillable = ('name');
-
+    
     public function donors()
     {
-        $this->hasMany(Donor::class);
+        $this->belongsTo(Donor::class);
     }
 }

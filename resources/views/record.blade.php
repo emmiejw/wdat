@@ -27,7 +27,7 @@
 <div class="container-fluid">
    <div class="row">
       <div class="col-7">
-         <h2>Drug and Alcohol Testing Results Record</h2>
+         <h2>Drug and Alcohol Testing Results Donor</h2>
       </div>
       <div class="col-2 text-center">
          <img src="images/logofinal1.png" height="60px;" width="150px" style="margin-top:5px;">
@@ -145,7 +145,7 @@
             constitute a violation of my human rights. In the event of a non-negative result (drugs) and or positive
             result (alcohol), I understand the policy of <input type="text"><input type="text">. I accept the
             interpretation of my test results by the assessor. I give consent for the employer/ agency/ person paying
-            for the tests to have access to the results and accept that records of the results will be kept. I
+            for the tests to have access to the results and accept that donors of the results will be kept. I
             understand this includes any result relating to medication, whether declared or undeclared at the time of
             sample collection. I understand that a chain of custody maybe performed in light of a non-negative drugs
             screen and give consent for my sample to be laboratory tested to confirm the results of any initial analysis
@@ -217,7 +217,7 @@
                   <li>2. Further reading required if second reading is higher than the first. Wait 15 minutes before
                      taking further reading</li>
                   <li>3. Last reading will be used to report results in all cases</li>
-                  <li>I confirm the above results recorded are accurate and true</li>
+                  <li>I confirm the above results Donored are accurate and true</li>
                </ul>
             </div>
             <div class="col-2">

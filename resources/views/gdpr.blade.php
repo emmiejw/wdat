@@ -49,13 +49,13 @@
             <b>contact information </b><br>
             Your name, employer or company name, postal address (if applicable), email address (if applicable), telephone number (if applicable), job title, D.O.B (date of birth), gender, ID e.g. Passport or driving licence number for identification purposes, medication used in the last two weeks, screen test for drugs (negative or non-negative and for what substances) and breathalyser results (up to 4 readings). 
             <br><br>
-            This data is used to identify you, record the screen results and contact you if, with your consent, a chain of custody laboratory screen is carried out. 
+            This data is used to identify you, Donor the screen results and contact you if, with your consent, a chain of custody laboratory screen is carried out. 
             <br><br>
             <b>Payment information </b><br>
             This is not held for individuals whom are being screened, only for clients whom we invoice after works have been completed. This information is deleted upon completion of a contract or at the clients request (if applicable/ legally able to). 
             <br><br>
             <b>Enquiries</b><br>
-            Any enquiries we have will have been received via email or post. Enquiries via email, once read and acted upon, unless still relevant to an ongoing contract, financial implication or tax record will be delete after 12 months. 
+            Any enquiries we have will have been received via email or post. Enquiries via email, once read and acted upon, unless still relevant to an ongoing contract, financial implication or tax Donor will be delete after 12 months. 
             <br><br>
             <b>Retention policy</b><br>
             We store and process data only as agreed by the client or as required in order to perform services requested by the client. We regard all details that we store as confidential. We will keep hold of your data for no longer than necessary. We only store personal data for as long as is legally required and for as long as we have your consent. We retain personal data that you supply to us, for as long as you (contractor and employee) are a client with an active account, and for as long as we are legally required to do (e.g. For tax and accounting regulations). 

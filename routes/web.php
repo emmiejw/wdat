@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/record', function () {
-    return view('record');
+Route::get('/Donor', function () {
+    return view('Donor');
 });
 Route::get('/dec', function () {
     return view('dec');

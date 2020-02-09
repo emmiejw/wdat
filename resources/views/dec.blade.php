@@ -33,7 +33,7 @@ input[type=text] {
             <ol>
                   <br>
                   <li>The Testing Company is Workplace Drug & Alcohol Testing Ltd.</li>
-                  <li>I verify that the information contained in the Drug and Alcohol Testing Results Record is correct and true to the best of my knowledge.</li>
+                  <li>I verify that the information contained in the Drug and Alcohol Testing Results Donor is correct and true to the best of my knowledge.</li>
                   <li>All personal information provided will be used to uniquely identify you as a test participant and provide the necessary information for analysing your biological sample in the laboratory.</li>
                   <li>I authorise Workplace Drug & Alcohol Testing Ltd and laboratory to perform drug testing with my biological specimen or that of the minor or who is otherwise legally incapable of consenting, named on this form. My personal information will not be shared with any other third-party unless authorised in writing or ordered by my employer. To request a third-party consent form, please email us on workplacedat@gmail.com. You will be required to answer security questions to access this service.</li>
                   <li>I understand that the biological specimens and associated personal information will be stored in the compliance with the Workplace Drug & Alcohol Testing Ltd Archive Policy. To request a copy of your personal information please email us on workplacedat@gmail.com. You will be required to answer security questions to access this service.</li>
