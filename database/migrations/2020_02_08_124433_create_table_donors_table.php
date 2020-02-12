@@ -17,10 +17,10 @@ class CreateTableDonorsTable extends Migration
             $table->increments('id');
             $table->integer('ref');
             $table->string('company');
-            $table->string('donor_name');
+            $table->string('name');
             $table->string('job_title');
             $table->date('dob');
-            $table->boolean('gender');
+            $table->string('gender');
             $table->string('medication1');
             $table->string('dose1');
             $table->string('medication2');

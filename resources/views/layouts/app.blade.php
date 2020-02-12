@@ -20,17 +20,22 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <style>
-      body, html {
-  height: 100%;
-  margin: 0;
-  background-image:url('/images/blue.jpeg');
-  background-size: cover;
-}
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            background-image: url('/images/blue.jpeg');
+            background-size: cover;
+        }
+        label{
+            font-weight:bold;
+            margin: 5px;
+        }
     </style>
 </head>
 
-<body >
-        <div class="container-fluid"></div>
+<body>
+    <div class="container-fluid"></div>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">

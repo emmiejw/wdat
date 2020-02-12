@@ -11,7 +11,7 @@ class Donor extends Model
     protected $fillable = [
         'ref',
         'company',
-        'donor_name',
+        'name',
         'job_title',
         'dob',
         'gender',

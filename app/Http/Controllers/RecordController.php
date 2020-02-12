@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Donor;
 use Illuminate\Http\Request;
 
-class DonorController extends Controller
+class RecordController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -23,7 +24,7 @@ class DonorController extends Controller
      */
     public function create()
     {
-        //
+        return view('records.create');
     }
 
     /**
@@ -34,7 +35,15 @@ class DonorController extends Controller
      */
     public function store(Request $request)
     {
-        //
+     $record =  new Donor([
+         'ref' => $request->get('ref'),
+       'company' => $request->get('company'),
+         ] );
+
+         $record->save();
+
+
+      return redirect()->route('home');
     }
 
     /**

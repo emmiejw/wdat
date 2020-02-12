@@ -5,15 +5,17 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Sample Donor Details</div>
+                <div class="card-header">WDAT Dashboard</div>
 
                 <div class="card-body">
-                    <form action="">
-                        
-                    </form>
+                    <div class="row">
+                
+                           
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 @endsection
