@@ -5,13 +5,22 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header text-center font-weight-bold">Drug & Alcohol Test From</div>
+                <h4 class="card-header text-center font-weight-bold">Drug & Alcohol Test Form</h4>
                 <div class="card-body">
                     <form action="{{route('record.store')}}" method="POST">
-                            @csrf
-                            @include('records.sections.sect1')
-                            <hr>
-                        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+                        @csrf
+                        @include('records.sections.sect1')
+                        <hr>
+                        @include('records.sections.sect2')
+                        <hr>
+                        @include('records.sections.sample')
+                        <hr>
+                        @include('records.sections.alcohol')
+                        <hr>
+                        @include('records.sections.drugs')
+                        <hr>
+                        @include('records.sections.action')
+                        <button type="submit" class="btn btn-primary mt-2">Save Tests</button>
                     </form>
                 </div>
             </div>

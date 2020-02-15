@@ -1,3 +1,4 @@
+<h5 class="font-weight-bold">Sample Donor Details</h5>
 <div class="form-group">
         <label for="ref">Ref. No </label>
         <input class="form-control" type="text" name="ref" id="">
@@ -15,20 +16,20 @@
         <input type="date" name="dob" class="form-control">
     </div>
         
-        <label for="gender">Gender</label>
+     <label for="gender">Gender</label>
         <br>
         <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="male">
-                <label class="form-check-label" for="male">Male</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="female">
-                <label class="form-check-label" for="female">Female</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="gender" id="inlineRadio3" value="other">
-                <label class="form-check-label" for="other">Other</label>
-              </div>
+            <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="male">
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="female">
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="inlineRadio3" value="other">
+            <label class="form-check-label" for="other">Other</label>
+        </div>
     <div class="form-group">
             <label for="medication">Medication</label>
             <div class="row">
