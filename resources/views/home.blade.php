@@ -19,7 +19,7 @@
                         <div class="col-6 text-center">
                             <a href="{{route('record.index')}}">
                                 <button class="btn btn-info">
-                                    View All Donor Records
+                                    View All Records
                                 </button>
                             </a>
                         </div>

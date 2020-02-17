@@ -2,12 +2,12 @@
 <label for="">Photographic ID available for inspection</label>
 <br>
 <div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="id_available" id="inlineRadio1" value="yes">
+    <input class="form-check-input" type="radio" name="id_available" id="inlineRadio1" value="1">
     <label class="form-check-label" for="">Yes</label>
     <div> - please complete <b> part 1</b> </div>
 </div>
 <div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="id_available" id="inlineRadio2" value="no">
+    <input class="form-check-input" type="radio" name="id_available" id="inlineRadio2" value="0">
     <label class="form-check-label" for="id_available">No</label>
     <div> - please complete <b> part 2</b> </div>
 </div>
