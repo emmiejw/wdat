@@ -3,7 +3,7 @@
     I hereby consent to a urine and breath test to detect or monitor the presence of drugs and their metabolites and the
     presence of alcohol in samples of my breath. I accept that the test does not constitute a violation of my human
     rights. In the event of a non-negative result (drugs) and or positive result (alcohol), I understand the policy of
-    <input type="text" style="border:none; border-bottom:1px solid gray;">
+    <input type="text" name="policy" style="border:none; border-bottom:1px solid gray;">
     . I accept the interpretation of my test results by the assessor. I give consent for the employer/ agency/ person
     paying for the tests to have access to the results and accept that records of the results will be kept. I understand
     this includes any result relating to medication, whether declared or undeclared at the time of sample collection. I

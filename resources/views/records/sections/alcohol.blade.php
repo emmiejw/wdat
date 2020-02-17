@@ -48,11 +48,11 @@
 <div class="row  flex flex-row">
     <div class="col-6">
         <p class="font-weight-bold">CLIENT CUT-OFF LEVEL</p>
-        <input type="number" class="form-control" style="width:100px;"> <p>μg/100ml</p> 
+        <input type="number" name="client_cut_off" class="form-control" style="width:100px;"> <p>μg/100ml</p> 
     </div>
     <div class="col-6">
         <p>Breathalyer Calibration Date</p>
-        <input type="date" name="" id="" class="form-control" >
+        <input type="date" name="b_calib_dae" id="" class="form-control" >
     </div>
 </div>
 <label for="wit_sig">Signature</label>

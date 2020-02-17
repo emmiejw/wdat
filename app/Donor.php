@@ -8,6 +8,10 @@ class Donor extends Model
 {
     protected $table = 'donors';
 
+   protected $casts = [
+    'created_at' => 'datetime:D-m-y',
+];
+
     protected $fillable = [
         'ref',
         'company',
@@ -30,10 +34,10 @@ class Donor extends Model
         'type_of_id',
         'id_number',
         'wit_name',
-        'wit_sig',
+        // 'wit_sig',
         'relationship_donor',
         'wit_company',
-        'sample_donor_sig',
+        // 'sample_donor_sig',
         'test_date',
         'consumption',
         'reading_1',
@@ -42,8 +46,9 @@ class Donor extends Model
         'reading_4',
         'client_cut_off',
         'b_calib_date',
-        'alcohol_donor_sig',
-        'date_test',
+        // 'alcohol_donor_sig',
+        'policy',
+        'alcohol_test',
         'temp',
         'kit_no',
         'kit_exp_date',
@@ -61,7 +66,7 @@ class Donor extends Model
         'non_negatives',
         'lab_test_request',
         'additional_info',
-        'testers_sig',
+        // 'testers_sig',
     ];
 
 }

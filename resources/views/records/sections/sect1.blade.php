@@ -8,9 +8,13 @@
     <input type="text" name="company" id="" class="form-control">
 </div>
     <div class="form-group">
-            <label for="job_title">Job Title</label>
-            <input type="text" name="job_title" class="form-control">
+            <label for="job_title">Name</label>
+            <input type="text" name="name" class="form-control">
     </div>
+    <div class="form-group">
+        <label for="name">Job Title</label>
+        <input type="text" name="job_title" class="form-control">
+</div>
     <div class="form-group">
         <label for="job_title">Date ofBirth</label>
         <input type="date" name="dob" class="form-control">
@@ -78,8 +82,9 @@
             </div>
     </div>
     <div class="form-group">
-        <label for="cars">Choose a car:</label> 
+        <label for="cars">Reason for testing:</label> 
         <select id="reason" class="form-control">
+                <option  class="form-control">Choose a reason</option>
             <option value="random" class="form-control">Random</option>
             <option value="periodic" class="form-control">Periodic</option>
             <option value="investigation" class="form-control">Investigation</option>
