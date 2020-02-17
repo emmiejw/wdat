@@ -15,8 +15,10 @@ Route::get('/gdpr', function(){
     return view('gdpr');
 });
 
-Route::resource('record', 'RecordController');
+Route::group(['middleware' => ['auth']], function () {
 
+Route::resource('record', 'RecordController');
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
