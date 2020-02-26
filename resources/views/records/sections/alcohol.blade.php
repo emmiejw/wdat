@@ -15,22 +15,18 @@
     Result of screen shown approx BREATH ALCOHOL CONCENTRATION μg/100ml The UK driving limit is 35μg/100ml.
 </small>
 <br>
-<table class="table table-borderless">
+<table class="table table-borderless table-sm">
     <tr>
-        <td>Reading 1:</td>
-        <td><input type="number" name="reading_1" class="form-control" id="" style="width:75px;"></td>
-        <td><small>μg/100ml</small> </td>
-        <td>Reading 2:</td>
-        <td><input type="number" name="reading_2" class="form-control" id="" style="width:75px;"></td>
-        <td><small>μg/100ml</small> </td>
+        <td class="font-weight-bold">Reading 1:</td>
+        <td><input type="number" name="reading_1" class="form-control" id="" style="width:75px;"><small>μg/100ml</small> </td>
+        <td class="font-weight-bold">Reading 2:</td>
+        <td><input type="number" name="reading_2" class="form-control" id="" style="width:75px;"><small>μg/100ml</small> </td>
     </tr>
     <tr>
-        <td>Reading 3:</td>
-        <td><input type="number" name="reading_3" class="form-control" id=" " style="width:75px;"></td>
-        <td><small>μg/100ml</small> </td>
-        <td>Reading 4:</td>
-        <td><input type="number" name="reading_4" class="form-control" id="" style="width:75px;"></td>
-        <td><small>μg/100ml</small> </td>
+        <td class="font-weight-bold">Reading 3:</td>
+        <td><input type="number" name="reading_3" class="form-control" id=" " style="width:75px;"><small>μg/100ml</small> </td>
+        <td class="font-weight-bold">Reading 4:</td>
+        <td><input type="number" name="reading_4" class="form-control" id="" style="width:75px;"><small>μg/100ml</small> </td>
     </tr>
 </table>
 <ol class="list-group">
