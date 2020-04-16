@@ -12,21 +12,7 @@
             </div>
             <br>
             <div class="col s12 l5 offset-l2">
-                {{-- <br>
-                <br>
-                <br> --}}
-                <button class="button">
-                    <i class="material-icons" style="color: #0080ff;">phone</i>  
-                    <a href="tel:07745 147376"><b style="font-size:22px;">Call us</b> </a>
-                </button>
-                <br><br>
-                <button class="button" style="margin-left:10px;">
-                    <i class="material-icons" style="color: #0080ff;">email</i> 
-                    <a href="mailto:workplacedat@gmail.com"><b style="font-size:22px;">Email Us</b> </a>
-                </button>
-
-                       <br>
-                     <br>
+                <img src="images/undraw_chat_1wo5.svg" style="max-height: 22git 0px;" />
             </div>
           </div>
         </section>
