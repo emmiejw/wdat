@@ -12,7 +12,7 @@
             </div>
             <br>
             <div class="col s12 l5 offset-l2">
-                <img src="images/undraw_chat_1wo5.svg" style="max-height: 22git 0px;" />
+                <img src="images/undraw_chat_1wo5.svg" style="max-height: 220px;" />
             </div>
           </div>
         </section>
