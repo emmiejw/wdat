@@ -76,7 +76,7 @@
     </div>
     <div class="col s7 l6 offset-l1 pull-l5 right-align">
         <h2 class="indigo-text text-darken-4">Results</h2>
-        <h4>Results within as 1-3 minutes!</h4>
+        <h4>Results within 1-3 minutes!</h4>
         <p class="flow-text"><b>What do the urine sampling results mean?</b> <br>
         Urine drug sampling will produce a negative or non-negative result (where metabolites have identified in the urine). A rapid test for the simultaneous, qualitative detection of multiple drugs and drug metabolites in human urine. If a non-negative result is produced, (meaning drug metabolites have been found in the urine) there are 3 options: <br>
         <ul  class="flow-text">
