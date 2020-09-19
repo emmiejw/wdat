@@ -3,7 +3,11 @@
       </div>
       <div class="section white">
         <div class="row container ">
-                <p ><b>© 2019 Copyright Workplace Drug & Alcohol Testing </b>  </p> 
+                <p ><b>©  
+                        
+                               <?php  echo date("Y") ?> 
+                            
+                 Copyright Workplace Drug & Alcohol Testing </b>  </p> 
                 <p >Company No. 11837128</p> 
                  <p >
                          Website Designed and Created by <a href="https://emilywallace-price.co.uk"><b> Emily Wallace - Price</b> </a> <br>
