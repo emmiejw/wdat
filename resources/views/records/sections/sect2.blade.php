@@ -29,16 +29,12 @@
 <div class="form-group">
     <label for="wit_name">Print Name</label>
     <input type="text" name="wit_name" class="form-control">
-    <div id="signature-pad" class="m-signature-pad">
-            <div class="m-signature-pad--body">
-                <canvas style="border: 2px dashed #ccc"></canvas>
-            </div>
-        
-            <div class="m-signature-pad--footer">
-                <button type="button" class="btn btn-sm btn-secondary" data-action="clear">Clear</button>
-                <button type="button" class="btn btn-sm btn-primary" data-action="save">Save</button>
-            </div>
+    <div class='row'>
+        <div class='col-xs-12'>
+           <canvas id='signature-pad' class='signature-pad border_thin'></canvas>
         </div>
+     </div>
+      
     <label for="relationship_donor">Relationship to Donor</label>
     <input type="text" name="relationship_donor" class="form-control">
     <label for="wit_company">Employer</label>

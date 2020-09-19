@@ -9,6 +9,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>WDAT </title>
+  
 
     <!-- Scripts -->
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
@@ -19,6 +20,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    
     <style>
         body,
         html {
@@ -33,11 +36,24 @@
             margin: 5px;
         }
 
-        .signature-component {
-            text-align: left;
-            display: inline-block;
-            max-width: 100%;
-            border: 1px solid grey;
+       .wrapper {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.signature-pad {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:400px;
+  height:200px;
+  background-color: white;
+}
 
             h1 {
                 margin-bottom: 0;
@@ -154,27 +170,20 @@
             @yield('content')
         </main>
     </div>
-    <script>
-      $(function () {
-        var wrapper = document.getElementById("signature-pad"),
-        clearButton = wrapper.querySelector("[data-action=clear]"),
-        saveButton = wrapper.querySelector("[data-action=save]"),
-        canvas = wrapper.querySelector("canvas"),
-        signaturePad;
+    <script src='https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js'></script>
+    <script >
+  var canvas;
+var signaturePad;
 
-        // Adjust canvas coordinate space taking into account pixel ratio,
-        // to make it look crisp on mobile devices.
-        // This also causes canvas to be cleared.
-        window.resizeCanvas = function () {
-            var ratio =  window.devicePixelRatio || 1;
-            canvas.width = canvas.offsetWidth * ratio;
-            canvas.height = canvas.offsetHeight * ratio;
-            canvas.getContext("2d").scale(ratio, ratio);
-        }
+$('#signature-pad').each(function (index, value) {
+    canvas = $('#signature-pad');                   // needed to initialize signature_pad
+    signaturePad = new SignaturePad(canvas[0]);     // needed to initialize signature_pad
+    signaturePad.penColor = 'rgb(0, 0, 0)';
 
-        resizeCanvas();
-    });
+    loadCustomerSignature();
+});
     </script>
+
 </body>
 
 </html>

@@ -36,8 +36,8 @@
     }
 
     .text-block {
-        background: rgb(0, 0, 0); 
-        background: rgba(0, 0, 0, 0.5); 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
         color: #f1f1f1;
         width: 100%;
         padding: 10px;
@@ -87,7 +87,7 @@
 .tt {
             list-style-image: url('/images/tt.jpg');
         }
-        
+
 }
 
     </style>
@@ -97,7 +97,7 @@
 @include('content.nav')
 </header>
 <main>
-  
+
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
           <div class="container">
@@ -106,30 +106,35 @@
               <img class="navlogo"src="images/logofinal3.png" alt="">
             </div>
             <br><br>
-    
+
           </div>
         </div>
         <div class="parallax"><img src="images/urinetest.jpg"></div>
       </div>
 <br>
+ <marquee behavior="scroll" direction="left" style="font-size:xx-large; background-color: ;">
+      <b  style="color:red; ">COVID-19 ANTIBODY TESTS</b> - NOW AVAILABLE 
+ </marquee>
+
 <section class="container section scrollspy" id="about">
   <table class="table table-borderless">
     <tr>
-  <td><img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>  
+  <td><img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>
     <td><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4>
     <br>
-    - Mrs Ketley, Managing Director   
+    - Mrs Ketley, Managing Director
     </td>
     </tr>
   </table>
 
     <div class="row center-align">
         <img src="images/bcard.jpg"  class="" style="height:250px; width:350px; ">
-     
+
     </div>
     <hr>
-    
+
     @include('content.whatwedo')
+</section>
 <br>
     <div class="parallax-container">
         <div class="parallax">
@@ -137,20 +142,20 @@
         </div>
     </div>
                 <br>
-    @include('content.aboutus')              
-    
-    
+    @include('content.aboutus')
+
+
     <div class="parallax-container">
         <div class="parallax">
             <img src="images/wine.jpg" >
         </div>
     </div>
-    
-                
-    @include('content.contact')    
-    
+
+
+    @include('content.contact')
+
     @include('content.footer')
-</main>   
+</main>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script type="text/javascript">function add_chatinline(){var hccid=34450465;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
