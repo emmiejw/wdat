@@ -113,7 +113,7 @@
       </div>
 <br>
  <marquee behavior="scroll" direction="left" style="font-size:xx-large; background-color: ;">
-      <b  style="color:red; ">COVID-19 ANTIBODY TESTS</b> - NOW AVAILABLE 
+      <b  style="color:red; ">COVID-19 ANTIBODY TESTS</b> - NOW AVAILABLE  <small>please see <a href="#antibody">details</a> </small>
  </marquee>
 
 <section class="container section scrollspy" id="about">
@@ -134,6 +134,10 @@
     <hr>
 
     @include('content.whatwedo')
+    <section id="antibody">
+        <img src="images/antibody.jpg"  class="responsive-img" >
+
+    </section>
 </section>
 <br>
     <div class="parallax-container">

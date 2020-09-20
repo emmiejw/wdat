@@ -86,7 +86,7 @@
         </ul>
         <p  class="flow-text">
                 <b>What do the breathalyser sampling results mean?</b> <br>                   
-                When an employee provides a sample of breath into the breathalyser,  if it is identified that the level produced is  at or above the company cut off, another test can be performed 15 minutes later. This can then be repeated up to a maximum of 3 more times in one visit. it will identify whether the employees micrograms of ethanol per 100ml of breath is reducing, increasing or staying the same.  The current UK driving limit is 35(.35) microgrammes per 100ml of breath. <br>
+                When an employee provides a sample of breath into the breathalyser,  if it is identified that the level produced is  at or above the company cut off, another test can be performed 15 minutes later. This can then be repeated up to a maximum of 3 more times in one visit. It will identify whether the employees micrograms of ethanol per 100ml of breath is reducing, increasing or staying the same.  The current UK driving limit is 35(.35) microgrammes per 100ml of breath. <br>
                 As a company you will need to make a safety concious judgement (which must be reflected and explicitly written in your Drugs and Alcohol Policy) about the level at which employees are fit for work. Some employers decide to set their company cut off levels at 22 microgrammes per 100ml of breath. However, please note this is NOT applicable or suitable for employees working on railways, tramways and any other guided transport system, where guidance states the breathalyser levels should be 0 .
         </p>
         </p>
