@@ -90,7 +90,7 @@
 
 }
 
-    </style>
+  </style>
 </head>
 <body>
 <header>
@@ -112,14 +112,16 @@
         <div class="parallax"><img src="images/urinetest.jpg"></div>
       </div>
 <br>
- <marquee behavior="scroll" direction="left" style="font-size:xx-large; background-color: ;">
-      <b  style="color:red; ">COVID-19 ANTIBODY TESTS</b> - NOW AVAILABLE  <small>please see <a href="#antibody">details</a> </small>
+ <marquee behavior="scroll" direction="left" style="font-size:xx-large;">
+    <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; margin-right:-30px;">
+      <b  style="color:red; ">Find out if you have Covid-19 NOW</b> - Results in <b> 15 minutes </b> - with a ANTIGEN swab test  <small>please see <a href="#covid">details</a> </small>
+      <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; "> 
  </marquee>
 
 <section class="container section scrollspy" id="about">
   <table class="table table-borderless">
     <tr>
-  <td><img src="images/sarah.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>
+  <td><img src="images/sketley.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>
     <td><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4>
     <br>
     - Mrs Ketley, Managing Director
@@ -127,18 +129,16 @@
     </tr>
   </table>
 
-    <div class="row center-align">
+    {{-- <div class="row center-align">
         <img src="images/bcard.jpg"  class="" style="height:250px; width:350px; ">
 
     </div>
-    <hr>
-
+    <hr> --}}
+    <section id="covid">
+      <img src="images/covid.jpg"  class="responsive-img" >
+  </section>
     @include('content.whatwedo')
-    <section id="antibody">
-        <img src="images/antibody.jpg"  class="responsive-img" >
 
-    </section>
-</section>
 <br>
     <div class="parallax-container">
         <div class="parallax">
