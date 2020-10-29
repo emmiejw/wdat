@@ -137,6 +137,7 @@
     <section id="covid">
       <img src="images/covid.jpg"  class="responsive-img" >
   </section>
+</section>
     @include('content.whatwedo')
 
 <br>
