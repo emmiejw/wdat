@@ -114,7 +114,7 @@
 <br>
  <marquee behavior="scroll" direction="left" style="font-size:xx-large;">
     <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; margin-right:-30px;">
-      <b  style="color:red; ">Find out if you have Covid-19 NOW</b> - Results in <b> 15 minutes </b> - with a ANTIGEN swab test  <small>please see <a href="#covid">details</a> </small>
+      <b  style="color:red; ">Find out if you have Covid-19 NOW</b> - Results in <b> 15 minutes </b> - with an ANTIGEN swab test  <small>please see <a href="#covid">details</a> </small>
       <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; "> 
  </marquee>
 
