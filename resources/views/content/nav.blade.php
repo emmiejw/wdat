@@ -8,6 +8,8 @@
                 <li><a style="color:indigo;" href="#about">About Us</a></li>
                 <li><a style="color:indigo;" href="#services">Services</a></li>
                 <li><a style="color:indigo;" href="#contact">Contact</a></li>
+                <li><a style="color:indigo;" href="#policies">Our Policies</a></li>
+
             </ul>
 
             <img src="images/logofinal2.png" class="brand-logo center" style="height:50px; width:100;">
@@ -19,4 +21,5 @@
     <li><a style="color:indigo;" href="#services">What We Do</a></li>
     <li><a style="color:indigo;" href="#information">Information</a></li>
     <li><a style="color:indigo;" href="#contact">Contact</a></li>
+    <li><a style="color:indigo;" href="#policies">Our Policies</a></li>
 </ul>

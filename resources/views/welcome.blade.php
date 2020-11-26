@@ -158,6 +158,14 @@
 
 
     @include('content.contact')
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/6.jpeg" >
+        </div>
+    </div>
+
+
+    @include('content.policies')
 
     @include('content.footer')
 </main>
