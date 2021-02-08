@@ -49,21 +49,38 @@
     <div class="col s7 l6 offset-l1">
         <h2 class="indigo-text text-darken-4">Test</h2>
         <p class="flow-text"><b>How can we support your business?</b> <br>
-          We are a extremely dignified, private and confidential company. No procedure commences without our testers ensuring the donor (employee) understands the tests involved and is happy to sign the declaration/consent form. We perform urine sampling using the most up to date 10 split key membranes, with adulteration, testing cups ( this enables us to perform a chain of custody laboratory test if a non-negative result is found)  and a Home Office approved Draegar 5820 breathalyser. </p>
+            WDAT pride ourselves on our client centred service, in particular our clients say we operate in an extremely dignified manner, which ensures a private and confidential service. No procedure commences without prior consent from each donor (employee to be tested). Each donor receives a declaration (consent form) which they will read through, have the opportunity to ask questions and sign, only if they consent for the test to proceed.  <br>
           <p class="flow-text">
-          We use the most up to date and tested membranes using a 10 drug split key and test for: <br>
+            WDAT utilise the most up to date point of care testing kits with the highest sensitivity, specificity and combined overall accuracy. Our multi-drug testing kits are utilised for the qualitative assessment of drugs and / or their metabolites in human urine. We carry out urine sampling using specially designed drug of abuse testing devices including either a split key cup (tamper proof) which tests for 10 prolific drugs and/ or standard drug of abuse cups. Our testing kits have built in temperature strips, adulteration checks and are tamper proof (point of care split key cups). <br>
+            <p class="flow-text" class="flow-text">Clients can also request a back to lab 'Chain of Custody' drug test, which we send to the lab for confirmation. Please note this is charged at a seperate rate per drug tested. This will confirm the drug metabolites found in the sample, the level identified and whether this corresponds or contradicts any prescribed medication that the donor currently takes. WDAT uses a <b>Home Office approved Draegar 5820 breathalyser</b> to measure ethanol in a sample of breath, these are carried out as standard with any drug test. </p>
+            <p class="flow-text">We currently use two types of Point of Care tests, clients can choose which set is preferential to their workforce.</p>
+            <p class="flow-text">The split key cup which will detect the following drug metabolites; </p>
                     <ul class="flow-text">
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methamphetamine (MET)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cocaine (COC)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cannabis (THC)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Amphetamines (AMP)</li>
-                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Morphine (MOP)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Opiate (OPI)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Benzodiazepines (BZO)</li>
-                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ecstasy (MDMA)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Buprenorphine (BUP)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methadone (MTD)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Tramadol (TML)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ketamine (KET)</li>
-                    </ul> </p>
+                    </ul> 
+                    <p class="flow-text">Secondly we have our standard drug testing kit which will detect the following drug metabolites; </p>
+                    <ul class="flow-text">
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methamphetamine (MET)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cocaine (COC)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Cannabis (THC)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Amphetamines (AMP)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Opiate (OPI)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Benzodiazepines (BZO)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Propoxyphene (PPX)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methadone (MTD)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Barbiturate (BUR)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ketamine (KET)</li>
+                    </ul> 
+                    <p class="flow-text">You can decide which testing kits suit your needs and requirements, in line with your health and safety policies. </p>
                     <p class="flow-text">
           Guidance procedural notes are forwarded to site managers/ contracts managers prior to our visit. Your company is responsible for setting the company cut of level for which you deem fit for work. All results must remain confidential to adhere with data protection laws (Please see our <a href="gdpr">GDPR</a> policy). <br> <br>
           <b class="flow-text"><a href="#contact">Contact Us</a> and we can support you through our recommended testing procedures and the benefits this can bring to your company. </b>
@@ -76,9 +93,10 @@
     </div>
     <div class="col s7 l6 offset-l1 pull-l5 right-align">
         <h2 class="indigo-text text-darken-4">Results</h2>
-        <h4>Results within 1-3 minutes!</h4>
+        <h4>Results within 5 minutes!</h4>
         <p class="flow-text"><b>What do the urine sampling results mean?</b> <br>
-        Urine drug sampling will produce a negative or non-negative result (where metabolites have identified in the urine). A rapid test for the simultaneous, qualitative detection of multiple drugs and drug metabolites in human urine. If a non-negative result is produced, (meaning drug metabolites have been found in the urine) there are 3 options: <br>
+        Urine drug sampling will produce a negative or non-negative result (where metabolites have identified in the urine). Our drug testing kits will detect drug metabolites in the urine, which will be highlighted by the membrane panel built into the cups. The results will either identify a 'negative' or' non-negative' result. If the result is 'Negative' it highlights our drug kits have found no metabolites (drug) in the urine. 'Non-negative' results indicate drug metabolites have been found in the urine. If a non-negative result is produced, (meaning drug metabolites have been found in the urine) there are 3 options: <br>
+        In light of the analysed results (including analyses of the temperature and adulteration strips) there are three outcomes to consider;   <br>
         <ul  class="flow-text">
             <li ><img src="images/option1.png" style="height:25px; width:25px;  margin-right: 15px;">The donor is happy with this result, is therefore in agreement with the substances found in their urine and signs the declaration form.</li> <br>
             <li><img src="images/option1.png" style="height:25px; width:25px;  margin-right: 15px;">A re-test is requested (at a further cost).</li> <br>
