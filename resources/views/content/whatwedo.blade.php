@@ -3,7 +3,7 @@
             <div class="col s12 l4">
         <h2 class="indigo-text text-darken-4">What We do..</h2>
         <p>Workplace Drug & Alcohol Testing Ltd is based in Hampshire</p>
-        <p>We provide discreet, confidential and the most up to date drugs and alcohol testing services ffor companies that have employees working in all industries, particularly construction, where an impaired awareness can have devastating consequences.</p>
+        <p>We provide professional, confidential and discreet testing and analysis services for a multitude of industries. We pride ourselves on our client focused and supportive approach to testing in the workplace. We value our clients and are able to adapt our testing services to suit their requirements.</p>
         <br>
         </div>
             <div class="col s12 l6 offset-l2">
@@ -52,7 +52,7 @@
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Benzodiazepines (BZO)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Propoxyphene (PPX)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methadone (MTD)</li>
-                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Barbiturate (BUR)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Barbiturate (BAR)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ketamine (KET)</li>
                     </ul> 
                     <p>You can decide which testing kits suit your needs and requirements, in line with your health and safety policies. </p>

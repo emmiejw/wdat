@@ -15,7 +15,7 @@
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Up to <b>75% </b> of people who claim to have a problem with alcohol <b>are in employment</b>. </li>
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">In the UK, <b>100, 000</b>  people were <b>convicted</b>  for drink driving, most said "I feel ok to drive".</li>
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">The cost to  employers for drug and alcohol misuse are enormous and can significantly affect organic growth, <b>profitability</b>, stability and <b>reputation</b>. </li>
-            <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Studies show <b>1 in 12</b>  (8.5%) 16 to 59 year olds admitted to taking illicit drugs. Further <b>1/4</b>  of 26-30 year olds have tried <b>class A drugs</b>  such as; heroine, cocaine or ecstasy at least once.</li>
+            <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Studies show <b>1 in 12</b>  (8.5%) 16 to 59 year olds admitted taking illicit drugs. Further <b>1/4</b>  of 26-30 year olds have tried <b>class A drugs</b>  such as; heroine, cocaine or ecstasy at least once.</li>
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Of the people seeking help for drug misuse, <b>25%  are employed</b>  (this doesn't include those who have already sought help).</li>
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Of the large companies surveyed <b>18%</b>  had reported <b>illegal drug use</b>.</li>
             <li><img src="images/hh.png" style="height:20px; width:20px;  margin-right: 10px; margin-top:10px;">Finally, drugs and alcohol misuse that is not addressed, can undermine Health and Safety in the Workplace and potentially lead to experiencing litigation. Employers are not only responsible for their own safety but also that of their entire workforce.</li>
@@ -35,8 +35,10 @@
         The Road and Traffic Act 1988 states "Any person who, when driving or attempting to drive a motor vehicle, on a road or other public place, or when in charge of a motor vehicle on a road or other public place whilst unfit to drive through drink or drugs is guilty of an offence". <br>
         Under the Health and Safety Act 1974, employers have the legal duty to ensure the health, safety and welfare of employees. <br>
         If an employer is aware of an employee under the influence of alcohol/drug misuse and allows them to work or continue to work after being alerted and their behaviour places the employee or others at risk, the employer could be prosecuted. <br>
-        <b> If an employer feels a justifiable Health and Safety risk, how should they implement a drug and alcohol testing policy? </b> <br>
-        You must ensure that an appropriate alcohol, drugs and substance abuse policy forms part of your overall Health and Safety Policy (We can support you in this process). Once established, we can facilitate the rest...
+        It is deemed <strong>good practise</strong> to have a regularly updated drugs and alcohol policy (this may form part of your overall Health and Safety policy). If an employer feels there is a <span style="text-decoration: underline;">justifiable </span> risk to the health and safety of their staff, employees or the general public, how should they implement a drugs and alcohol policy?  <br>
+        You must ensure that an appropriate alcohol, drugs and substance abuse policy forms part of your overall Health and Safety Policy (We can support you in this process). 
+        Before commencing drugs and alcohol testing employers MUST have their employees consent.
+        Once established, we can facilitate the rest...
         <br>
         <b class="flow-text"><a href="#contact">Contact Us</a> and we can discuss ways in which you can begin to identify drugs and alcohol misuse in the workplace.</b>
         </p>
@@ -77,7 +79,7 @@
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Benzodiazepines (BZO)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Propoxyphene (PPX)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Methadone (MTD)</li>
-                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Barbiturate (BUR)</li>
+                        <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Barbiturate (BAR)</li>
                         <li><img src="images/drugs.png" style="height:25px; width:25x;  margin-right: 11px;">Ketamine (KET)</li>
                     </ul> 
                     <p class="flow-text">You can decide which testing kits suit your needs and requirements, in line with your health and safety policies. </p>
