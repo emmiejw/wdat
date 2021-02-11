@@ -112,11 +112,11 @@
         <div class="parallax"><img src="images/urinetest.jpg"></div>
       </div>
 <br>
- <marquee behavior="scroll" direction="left" style="font-size:xx-large;">
+ {{-- <marquee behavior="scroll" direction="left" style="font-size:xx-large;">
     <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; margin-right:-30px;">
       <b  style="color:red; ">Find out if you have Covid-19 NOW</b> - Results in <b> 15 minutes </b> - with an ANTIGEN swab test  <small>please see <a href="#covid">details</a> </small>
       <img src="images/iphoneTT.jpeg" height="110px" width="80px" style="margin-bottom:-40px; "> 
- </marquee>
+ </marquee> --}}
 
 <section class="container section scrollspy" id="about">
   <table class="table table-borderless">
@@ -134,22 +134,15 @@
 
     </div>
     <hr> --}}
-    <section id="covid">
-      <img src="images/covid.jpg"  class="responsive-img" >
-  </section>
+    
 </section>
 <br>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/recycle4.png" >
-        </div>
-    </div>
     @include('content.whatwedo')
 
 <br>
     <div class="parallax-container">
         <div class="parallax">
-            <img src="images/pp.jpg" >
+            <img src="images/bottles.png" >
         </div>
     </div>
                 <br>
