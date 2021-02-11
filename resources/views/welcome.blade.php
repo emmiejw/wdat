@@ -141,7 +141,7 @@
 <br>
     <div class="parallax-container">
         <div class="parallax">
-            <img src="images/recycle.jpeg" >
+            <img src="images/recycle4.png" >
         </div>
     </div>
     @include('content.whatwedo')
