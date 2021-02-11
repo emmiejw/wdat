@@ -142,7 +142,7 @@
 <br>
     <div class="parallax-container">
         <div class="parallax">
-            <img src="images/bottles.png" >
+            <img src="images/pots.png" >
         </div>
     </div>
                 <br>
