@@ -138,6 +138,12 @@
       <img src="images/covid.jpg"  class="responsive-img" >
   </section>
 </section>
+<br>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="images/recycle.jpeg" >
+        </div>
+    </div>
     @include('content.whatwedo')
 
 <br>
