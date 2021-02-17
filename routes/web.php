@@ -4,8 +4,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Donor', function () {
-    return view('Donor');
+Route::get('/form', function () {
+    return view('form');
 });
 Route::get('/dec', function () {
     return view('dec');
