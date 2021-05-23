@@ -5,7 +5,7 @@ body{
     border: solid black 1px;
 }
 p{
-   font-size: 15px;
+   font-size: 12px;
 }                                                          
 
 input[type=text] {
@@ -19,25 +19,28 @@ input[type=text] {
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<div class="container-fluid">
+<div class="container-fluid" style="margin-bottom:-10px;">
    <div class="row">
      <div class="col-7">
-         <h2>Drug and Alcohol Testing Results Record</h2>
-    <p class=""><b> Ref no.</b> <input type="text" style="font-size:xx-large;"> <br> <br><b>Company Name</b> <input type="text"><input type="text"></p>    
+         <h4>Drug and Alcohol Testing Results Certificate</h4><b> Ref no.</b> <input type="text" style="width:100px;">
+    <b>Company Name</b> <input type="text" style="width:250px;">
     </div>
      <div class="col-2 text-center">
-         <img src="images/logofinal1.png" height= "80px;" width="150px" style="margin:15px;">
+         <img src="images/logofinal1.png" height= "60px;" width="150px" style="margin:10px;">
       </div>
       <div class="col-1 text-center" style="margin-top:15px;">
          <p style="font-size: small;">working in conjunction with</p> 
       </div>
       <div class="col-2">
-         <img src="images/tbt.jpg" height="60px;" width="90px" style="margin:15px;">
+         <img src="images/tbt.jpg" height="40px;" width="90px" style="margin:10px;">
+         {{-- <img src="images/logofinal1.png" height= "60px;" width="150px" style="margin:10px;"> --}}
+      </div>
+
       </div>
 
   <br>
    </div>
-   <div class="row" style="border-top: 2px solid grey; padding-top:20px;">
+   <div class="row" style="border-top: 2px solid grey; padding-top:5px; margin-bottom:-10px; margin-left:5px; margin-right:5px;">
    <div class="col-6">
        <h5><b>1. Sample Donor Details</b></h5>
     <p><b> Name:</b><input type="text" style="width:400px;"><br><br>
@@ -93,7 +96,7 @@ input[type=text] {
         Other: <input type="text"></p>    
      </div>      
    </div> 
-   <div class="row" style="border-top: 2px solid grey; padding-top:20px;">
+   <div class="row" style="border-top: 2px solid grey; padding-top:10px; margin-left:5px; margin-right:5px">
       <row class="col-3">
          <h5><b>3. Proof of Identity</b></h5>
       </row>
@@ -115,7 +118,7 @@ input[type=text] {
       <div class="col-12">
             <p><b>Part 2:  An authorised person e.g. Employer/Solicitor must sign below.</b> <span>I can confirm I am able to identify the sample donor and that the details entered above are accurate to the best of my knowledge</span></p>
       </div>
-      <div class="row" style="padding-bottom:5px; ">
+      <div class="row" style="margin-bottom:-10px; ">
          <div class="col-3" style="padding-left:50px;">Print name: <br><input type="text"></div>
          <div class="col-3" style="padding-left:50px;">Signature: <br><input type="text"></div>
          <div class="col-3" style="padding-left:50px;">Relationship to Donor: <br><input type="text"></div>
@@ -123,17 +126,17 @@ input[type=text] {
       </div>  
    </div>
    <br>
-<div class="row" style="border-top: 2px solid grey; padding-top:20px;">
+<div class="row" style="border-top: 2px solid grey; padding-top:10px; margin-left:5px; margin-right:5px">
    <row class="col-12">
       <h5><b>Sample Donor</b></h5>
    </row>
    <row class="col-12">
       <p style="font-size:12;">I hereby consent to a urine and breath test to detect or monitor the presence of drugs and their metabolites and the presence of alcohol in samples of my breath. I accept that the test does not constitute a violation of my human rights. In the event of a non-negative result (drugs) and or positive result (alcohol), I understand the policy of <input type="text"><input type="text">. I accept the interpretation of my test results by the assessor. I give consent for the employer/ agency/ person paying for the tests to have access to the results and accept that records of the results will be kept. I understand this includes any result relating to medication, whether declared or undeclared at the time of sample collection. I understand that a chain of custody maybe performed in light of a non-negative drugs screen and give consent for my sample to be laboratory tested to confirm the results of any initial analysis undertaken. I hold the individuals and testing companies involved within this procedure blameless against any loss or damage, direct or indirect, for either the results obtained or for any action arising or taken by any person in receipt of this information. </p>
    </row>
-   <p style="margin-left:10px; "><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"></p>  
+   <p style="margin-left:10px;  margin-bottom:-10px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"></p>  
 </div>
 <br>
-<div class="row" style="border-top: 2px solid grey; padding-top:20px; padding-left:10px;">
+<div class="row" style="border-top: 2px solid grey; padding-top:10px; padding-left:10px; margin-left:5px; margin-right:5px">
    <div class="row">
       <div class="col-2"><h5><b>6. Alcohol Testing:</b></h5></div>
       <div class="col-8"><b>Please confirm that the sample donor has not eaten, drank (except water), smoked, chewed gum or used mouthwash in the last 15 minutes.</b> </div>
@@ -194,18 +197,18 @@ input[type=text] {
                <p class="text-center "><b>CLIENT CUT-OFF LEVEL</b><br>
                ............ μg/100ml <br><br>
                <p style="font-size:x-small" class="text-center">
-                     Breathalyzer Calibration Date:<input type="text"> <br></p>   
+                     Breathalyser Calibration Date:<input type="text"> <br></p>   
 
                </p>
                </p>
                
             </div>
          </div>
-         <p style="margin-left:15px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"> 
+         <p style="margin-left:15px; margin-bottom:-10px;"><b> Donor Signature</b> <input type="text"><input type="text"> <b>Date:</b> <input type="text"> 
 </div>         
 </div>
 <br>
-<div class="row" style="border-top: 2px solid grey; padding-top:20px; padding-left:10px;">
+<div class="row" style="border-top: 2px solid grey; padding-top:10px; padding-left:10px; margin-left:5px; margin-right:5px">
    <div class="col-12" >
          <h5><b>7. Drug Testing: Details and Results</b>  Sample type: Urine</h5>
    </div>
@@ -260,7 +263,7 @@ input[type=text] {
                         <td><input type="checkbox"></td>
                       </tr>
                       <tr>
-                        <td>Amphetamines (AMP) </td>
+                        <td>Amphetamine (AMP) </td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
                         <td >Ketamine (KET)</td>
@@ -276,7 +279,7 @@ input[type=text] {
                         <td><input type="checkbox"></td>
                       </tr>
                       <tr>
-                        <td>Benzodiazepines (BZO) </td>
+                        <td>Benzodiazepine (BZO) </td>
                         <td><input type="checkbox"></td>
                         <td><input type="checkbox"></td>
                         <td>Barbiturate (BAR)</td>
@@ -291,7 +294,7 @@ input[type=text] {
       </div>
       </div>
       </div>
-      <div class="row" style="border-top: 2px solid grey; padding-top:15px; padding-left:10px;">
+      <div class="row" style="border-top: 2px solid grey; padding-top:15px; padding-left:10px; margin-left:5px; margin-right:5px">
          <h5 style="padding-left:10px; padding-right:70px;"><b>8. Action Taken by Sample Collector</b></h5>   
 
          <p style="margin-right:10px;">No action required, all tests negative  </p>  <input type="checkbox"> 

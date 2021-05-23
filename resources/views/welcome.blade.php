@@ -122,13 +122,28 @@
   <table class="table table-borderless">
     <tr>
   <td><img src="images/sketley.jpg" style="height:150px; width:90px; border:2px solid blue;"></td>
-    <td><h4><em>"Working together for a safer, healthier future for your company and employees"</em></h4>
+    <td><h4 style="color:blue;"><em>"Working together for a safer, healthier future for your company and employees"</em></h4>
     <br>
     - Mrs Ketley, Managing Director
     </td>
     </tr>
   </table>
+  <table class="table table-borderless">
+    <tr>
+    <td><h5 style="text-align:center;"><em>"Xelabus have been collaborating with WDAT for over a year; performing random drug tests on our drivers. They are a very professional company, who undertake the testing on our drivers. They have helped us enormously with advice and flexibility in responding to our needs as a company. I would wholeheartedly  recommend this company."</em></h5>
+     <td>
+    <img src="images/x.jpeg" style="height:150px; width:120px;  float:right;">
+  </td>
 
+    </tr>
+    <tr>
+      </td>
+      <td style="float:right;">
+          - Mr David Hobbs, HR and Health & Safety Manager, Xelabus. 
+  
+      </td>
+    </tr>
+  </table>
     {{-- <div class="row center-align">
         <img src="images/bcard.jpg"  class="" style="height:250px; width:350px; ">
 
