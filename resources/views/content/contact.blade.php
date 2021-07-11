@@ -5,8 +5,8 @@
                 <p>Please feel free to contact us to discuss your company's requirements. We can assist you in taking your business to the next level  whereby facilitating a drugs and alcohol conscious safety environment.
                     <br>
                     <b>
-                            email: workplacedat@gmail.com <br>
-                            phone: 07745 147376
+                           <a href="mailto:sarah@workplacedat.co.uk"> email: sarah@workplacedat.co.uk</a> <br>
+                          <a href="tel:07745147376">  phone: 07745 147376    </a>
                     </b>
                 </p>
             </div>
